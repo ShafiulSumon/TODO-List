@@ -12,7 +12,7 @@ function addMore(){
         li.textContent = text;
 
         let a = document.createElement('a');
-        a.textContent = "X";
+        a.textContent = "(delete)";
         a.href = "javascript:void(0)";
         a.className="remove";
         li.appendChild(a);
